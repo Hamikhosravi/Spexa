@@ -1,0 +1,12 @@
+.directoryNameInput .q-field__control {
+    height: 60px;
+}
+.q-layout-container .q-layout {
+    min-height: 100vh !important;
+}
+.scroll{
+    max-height: unset;
+}
+.q-breadcrumbs__el{
+    font-size: 18px;
+}

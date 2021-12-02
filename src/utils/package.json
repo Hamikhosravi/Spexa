@@ -1,0 +1,36 @@
+{
+  "_from": "shayan-utils@0.0.5",
+  "_id": "shayan-utils@0.0.5",
+  "_inBundle": false,
+  "_integrity": "sha512-NcaCer5JS7kR6XQ5ykmxDET7yOGNKzSQ98tVYK8J9CCUWSrKZfJBWqB0Ze6znrFQ0FF/73/k6h5f8MHQP/PYcw==",
+  "_location": "/shayan-ui-framework/shayan-utils",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "shayan-utils@0.0.5",
+    "name": "shayan-utils",
+    "escapedName": "shayan-utils",
+    "rawSpec": "0.0.5",
+    "saveSpec": null,
+    "fetchSpec": "0.0.5"
+  },
+  "_requiredBy": [
+    "/shayan-ui-framework"
+  ],
+  "_resolved": "https://registry.npmjs.org/shayan-utils/-/shayan-utils-0.0.5.tgz",
+  "_shasum": "bbc5d854e939322bf6af65c08040787cfe40aa65",
+  "_spec": "shayan-utils@0.0.5",
+  "_where": "D:\\git-shayan\\job-list\\job-management-web\\node_modules\\shayan-ui-framework",
+  "author": "",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "shayan-utils",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.5"
+}
