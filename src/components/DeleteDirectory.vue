@@ -93,6 +93,13 @@
         min-height: 250px;
     }
 
+    @media screen and (max-width: 600px) {
+        .deleteCard {
+            min-width: 90%;
+            max-width: 90%;
+        }
+    }
+
     .cancel {
         border: 1px solid black;
         padding-left: 10%;

@@ -26,7 +26,7 @@
                 <q-page class="column items-center justify-center noFolderContainer"
                         v-if="noFolder">
                     <q-icon name="move_to_inbox" size="300px" class="material-icons-round"/>
-                    <h4 class="q-mt-none">There is nothing to show</h4>
+                    <h4 class="q-mt-none noFolderMsg">There is nothing to show</h4>
                     <q-btn label="Create directory" class="q-px-xl createBtn" color="dark" size="18px"
                            text-color="white" @click="createDirectory=true"/>
                 </q-page>
@@ -279,6 +279,18 @@
 
     .createBtn {
         width: 400px;
+    }
+
+    @media screen and (max-width: 600px) {
+        .createBtn {
+            width: 80%;
+        }
+        .noFolderMsg{
+            font-size: 25px;
+        }
+        .noFolderContainer {
+            min-height: 650px !important;
+        }
     }
 
     .foldersListBox {

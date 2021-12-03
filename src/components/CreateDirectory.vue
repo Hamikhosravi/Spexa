@@ -13,7 +13,7 @@
                 ]"/>
             </q-card-section>
 
-            <q-card-actions align="right" class="text-primary row justify-evenly">
+            <q-card-actions align="right" class="text-primary row justify-evenly no-wrap">
                 <q-btn color="dark" flat label="Cancel" class="cancel" v-close-popup/>
                 <q-btn color="white" flat label="Create" class="create bg-dark"
                        @click=" (directoryName.length === 0 ) ? console.log('No name is inputted'): addFolder()"/>
@@ -99,6 +99,13 @@
     .createCard {
         min-width: 450px;
         min-height: 250px;
+    }
+
+    @media screen and (max-width: 600px) {
+        .createCard {
+            min-width: 90%;
+
+        }
     }
 
     .cancel {
