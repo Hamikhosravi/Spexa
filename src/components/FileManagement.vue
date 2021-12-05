@@ -275,6 +275,7 @@
 
     .noFolderContainer {
         height: 90%;
+        min-height: 730px !important;
     }
 
     .createBtn {
